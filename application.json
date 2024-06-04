@@ -1,4 +1,16 @@
 {
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E4D8CC",
+  "evaluationVersion": 2,
+  "icon": "diamond",
   "pages": [
     {
       "id": "Page12",
@@ -9,25 +21,10 @@
       "isDefault": true
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {}
-  },
-  "color": "#E4D8CC",
-  "icon": "diamond",
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    }
-  ],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }

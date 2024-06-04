@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "665ddcee3e4483728c9ed11f_5d7b8552-e61f-46cf-9811-584f8282452e",
+  "id": "Page12_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Page12",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "welcome",
@@ -19,10 +19,6 @@
         "name": "thankyou",
         "value": "`Thank you for supporting our group! Your membership has been renewed.\n`"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Page12_JSObject1",
-  "deleted": false,
-  "gitSyncId": "665ddcee3e4483728c9ed11f_5d7b8552-e61f-46cf-9811-584f8282452e"
+    ]
+  }
 }

@@ -1,52 +1,62 @@
 {
-    "labelTextSize": "0.875rem",
-    "boxShadow": "none",
-    "widgetName": "Form1",
-    "backgroundColor": "white",
-    "rightColumn": 58,
-    "dynamicPropertyPathList": [
-        {"key": "isVisible"},
-        {"key": "borderRadius"}
-    ],
-    "dynamicHeight": "FIXED",
-    "widgetId": "m7dvlazbn7",
-    "topRow": 15,
-    "bottomRow": 91,
-    "parentRowSpace": 10,
-    "isVisible": "{{!!Table1.selectedRow.id}}",
-    "type": "FORM_WIDGET",
-    "parentId": "0",
-    "shouldScrollContents": false,
-    "isLoading": false,
-    "parentColumnSpace": 18.8828125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 37,
-    "dynamicBindingPathList": [{"key": "isVisible"}],
-    "borderRadius": "15px",
-    "children": [{
-        "labelTextSize": "0.875rem",
-        "boxShadow": "none",
-        "widgetName": "Canvas2",
-        "rightColumn": 528.71875,
-        "detachFromLayout": true,
-        "widgetId": "cicukwhp5j",
-        "containerStyle": "none",
-        "topRow": 0,
-        "bottomRow": 760,
-        "parentRowSpace": 1,
-        "isVisible": "true",
-        "canExtend": false,
-        "type": "CANVAS_WIDGET",
-        "version": 1,
-        "parentId": "m7dvlazbn7",
-        "minHeight": 460,
-        "isLoading": false,
-        "parentColumnSpace": 1,
-        "dynamicTriggerPathList": [],
-        "leftColumn": 0,
-        "dynamicBindingPathList": [],
-        "borderRadius": "0px"
-    }],
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "backgroundColor": "white",
+  "borderRadius": "15px",
+  "bottomRow": 91,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 760,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "isLoading": false,
+      "isVisible": "true",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 460,
+      "parentColumnSpace": 1,
+      "parentId": "m7dvlazbn7",
+      "parentRowSpace": 1,
+      "rightColumn": 528.71875,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "cicukwhp5j",
+      "widgetName": "Canvas2"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{!!Table1.selectedRow.id}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 37,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 18.8828125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 58,
+  "shouldScrollContents": false,
+  "topRow": 15,
+  "type": "FORM_WIDGET",
+  "widgetId": "m7dvlazbn7",
+  "widgetName": "Form1"
 }
